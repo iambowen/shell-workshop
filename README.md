@@ -219,32 +219,8 @@ world
 echo is a shell builtin
 ```
 
-### 解释顺序 
-
-* `alias`
-* `Keywords such as function and several others, like if and for`
-* `function`
-* `build-in`
-
-```bash
- ~> hello() {
-> echo "hello function"
-> }
-
- ~> alias hello="hello alias"
-
-  ~> type hello
-cd is aliased to `hello alias'
-
- ~> cd
-hello function
-
- ~> unalias cd
-
-
-```
-
 ### 控制流
+
 
 ### 循环
 
